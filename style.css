@@ -518,6 +518,8 @@ transform: translate(-50%, -50%);
 
 .contact{
 	background-color: #f7f7f7;
+    padding-bottom:50px;
+    width:100%;
 }
 
 .contact{
@@ -534,6 +536,10 @@ transform: translate(-50%, -50%);
 
 .contact form label {
   grid-column:1/1
+}
+
+.contact form textarea {
+    height:100px;
 }
 
 .contact form input, .contact form textarea {
