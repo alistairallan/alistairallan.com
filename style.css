@@ -423,11 +423,12 @@ summary ul{
     padding-bottom:25px;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 800px){
 
 	.summary .grid li{
-		flex-basis: 70%;
-		margin-bottom: 65px;
+		flex-basis: 100%;
+		margin-bottom: 30px;
+        padding:0 0;
 	}
 
 	.summary .grid li:last-child{
